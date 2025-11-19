@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto | Patitas Felices</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <header>
+    <img src="../media/img/logo.png" alt="Logo Patitas Felices" class="logo">
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="adoptar.html">Adopta</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Contacto</h2>
+    <form class="contacto-form">
+      <label for="nombre">Nombre <span>*</span></label>
+      <input id="nombre" name="nombre" type="text" required class="input-error" placeholder="Tu nombre">
+      <label for="apellidos">Apellidos <span>*</span></label>
+      <input id="apellidos" name="apellidos" type="text" required placeholder="Tus apellidos">
+      <label for="ciudad">Ciudad <span>*</span></label>
+      <input id="ciudad" name="ciudad" type="text" required placeholder="Tu ciudad">
+      <label for="email">Correo electrónico <span>*</span></label>
+      <input id="email" name="email" type="email" required class="input-error" placeholder="tu@email.com">
+      <label for="telefono">Teléfono</label>
+      <input id="telefono" name="telefono" type="tel" placeholder="Opcional">
+      <label for="tipo">Tipo de consulta <span>*</span></label>
+      <select id="tipo" name="tipo" required>
+        <option value="">Selecciona una opción</option>
+        <option value="adopcion">Adopción</option>
+        <option value="donacion">Donación</option>
+        <option value="voluntariado">Voluntariado</option>
+        <option value="informacion">Información general</option>
+        <option value="otro">Otro</option>
+      </select>
+      <label for="mensaje">Mensaje <span>*</span></label>
+      <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje"></textarea>
+      <div class="resultado success">¡Mensaje enviado correctamente!</div>
+      <div class="resultado error">Complete todos los campos obligatorios</div>
+      <button type="submit" class="btn-cta">Enviar</button>
+    </form>
+<div class="contacto-directo">
+  <p><strong>Email:</strong> brayanadmin@patitasfelices.org</p>
+  <p><strong>Teléfono:</strong> 316 4480983</p>
+  <div class="redes">
+    <a href="https://instagram.com/" target="_blank">
+      <img src="../media/icons/instagram.png" alt="Instagram" class="icono-red">
+    </a>
+    <a href="https://facebook.com/" target="_blank">
+      <img src="../media/icons/facebook.png" alt="Facebook" class="icono-red">
+    </a>
+    <a href="https://x.com/?lang=es" target="_blank">
+      <img src="../media/icons/x.png" alt="Twitter" class="icono-red">
+    </a>
+  </div>
+</div>
+
+  </main>
+  <footer>
+    <p>&copy; 2025 Patitas Felices | brayanadmin@patitasfelices.org</p>
+  </footer>
+</body>
+</html>
