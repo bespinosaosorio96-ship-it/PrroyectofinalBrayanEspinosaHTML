@@ -17,7 +17,7 @@ PRoyectoFinalHTMLYCSSBrayanEspinosa/
 Abre `index.html` en tu navegador.<br>
 No requiere instalación de dependencias.
 
-[visualizala pagina](https://bespinosaosorio96-ship-it.github.io/ProyectoFinalHTMLYCSSESpionosaBrayan/)
+[visualizala pagina](https://bespinosaosorio96-ship-it.github.io/PrroyectofinalBrayanEspinosaHTML/)
 
 ## Capturas de Pantalla
 
@@ -62,4 +62,5 @@ Desarrollado por [Brayan Espinosa].
 ---------------------------------------------
 | Footer                                   |
 ---------------------------------------------
+
 
